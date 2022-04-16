@@ -22,3 +22,4 @@ print(2**4) # ** belgisi darajaga oshirishni anglatadi, ya'ni 2**4 ifodasi 2 nin
 
 print(100/5)
 print(3**3)
+print)"hello world"
