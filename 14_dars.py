@@ -30,3 +30,46 @@ Created on Sat Apr 16 05:56:58 2022
 # jufltigi bo'lsin. Kamida uch kishining sevimli taomini konsolga chiqaring: Alining 
 # sevimli taomi osh
 
+# taom = {'ali':'shashlik',
+#         'vali':'osh',
+#         'hasan':'norin',
+#         'husan':'qozon kabob',
+#         'ramziddin':'beshbarmoq'
+#         }
+# print(f"Alining sevimli taomi {taom['ali']}")
+# print(f"Hasanning sevimli taomi {taom['hasan']}")
+# print(f"Husan sevimli taomi {taom['husan']}")
+# print(taom['husan'])
+
+
+# Python izohli lu'gati tuzing: Lug'atga shu kunga qadar o'rgangan 10 ta so'z
+ # (atamani) kiriting (masalan integer, float, string, if, else va hokazo) va har 
+ # birining qisqacha tarjimasini yozing.
+
+# lugat = {'integer':'butun son',
+#          'float':"o'nlik son",
+#          'if':'agar',
+#          'else':'yoki'}
+
+# kalit = input("kalit so'z kiriting: ").lower()
+# print(lugat.get(kalit,"bunday so'z mavjud emas"))
+
+# Foydalanuvchidan biror so'z kiritishni so'rang va so'zning tarjimasini yuqoridagi 
+# lug'atdan chiqarib bering. Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" 
+# degan xabarni chiqaring.
+
+# lugat = {'apple':'olma',
+#           'one':'bir',
+#           'lemon':'limon',
+#           'banana':'banan',
+#           'five':'besh'}
+
+# # soz = input("Tarjima uchun so'z kiriting: ").lower()
+# # print(lugat.get(soz,"lug'atimizda bunday so'z mavjud emas"))
+
+# kalit = input("Kalit so'z kiriting: ").lower()
+# tarjima = lugat.get(kalit)
+# if tarjima==None:
+#     print("Bunday so'z mavjud emas")
+# else:
+#     print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
