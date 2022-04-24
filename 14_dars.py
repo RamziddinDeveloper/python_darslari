@@ -58,18 +58,18 @@ Created on Sat Apr 16 05:56:58 2022
 # lug'atdan chiqarib bering. Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" 
 # degan xabarni chiqaring.
 
-# lugat = {'apple':'olma',
-#           'one':'bir',
-#           'lemon':'limon',
-#           'banana':'banan',
-#           'five':'besh'}
+lugat = {'apple':'olma',
+          'one':'bir',
+          'lemon':'limon',
+          'banana':'banan',
+          'five':'besh'}
 
 # # soz = input("Tarjima uchun so'z kiriting: ").lower()
 # # print(lugat.get(soz,"lug'atimizda bunday so'z mavjud emas"))
 
-# kalit = input("Kalit so'z kiriting: ").lower()
-# tarjima = lugat.get(kalit)
-# if tarjima==None:
-#     print("Bunday so'z mavjud emas")
-# else:
-#     print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
+kalit = input("Kalit so'z kiriting: ").lower()
+tarjima = lugat.get(kalit)
+if tarjima==None:
+    print("Bunday so'z mavjud emas")
+else:
+    print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
